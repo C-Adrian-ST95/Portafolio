@@ -529,6 +529,12 @@ html{
     100%{width: 94%;}
 }
 
+@media (max-width: 800px) {
+    #central {
+        flex-direction: column;
+    }
+}
+
 /* SECCION CONTACTO */
 .contacto{
     background-image: url(img/contact_bg.png);
