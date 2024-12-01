@@ -40,3 +40,8 @@ window.onscroll = function(){
     efectoHabilidades();
 } 
 
+function mostrarOcultarMenu() {
+    const nav = document.getElementById('nav');
+    nav.classList.toggle('active'); // Alterna la clase "active"
+}
+
